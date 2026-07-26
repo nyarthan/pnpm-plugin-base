@@ -1,0 +1,1 @@
+# @nyarthan/pnpm-plugin-base
