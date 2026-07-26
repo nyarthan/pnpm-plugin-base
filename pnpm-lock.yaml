@@ -1,0 +1,11 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+pnpmfileChecksum: sha256-G/7xa06VqvkyNt0/waUy7N6EO7QRVHybKiqf3KlqE7w=
+
+importers:
+
+  .: {}
