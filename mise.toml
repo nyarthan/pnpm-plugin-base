@@ -1,0 +1,19 @@
+[tools]
+node = "26.5.0"
+pnpm = "11.13.0"
+"npm:oxfmt" = "0.60.0"
+
+[env]
+FORCE_COLOR = 3
+
+[tasks.format]
+alias = "f"
+run = "oxfmt"
+
+[tasks."format:check"]
+alias = "fc"
+run = "oxfmt --check"
+
+[tasks.publish]
+depends = ["validate"]
+run = "pnpm publish --access public --provenance"
